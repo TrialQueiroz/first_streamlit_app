@@ -2,8 +2,8 @@ import streamlit
 
 streamlit.title('My parents New Healthy Diner')
 
-stremlit.header('Breakfast meno')
-stremlit.subheader( 
+streamlit.markdown('Breakfast menu')
+streamlit.subheader( 
   ' Omega 3 & Blueberry Oatmeal\n',
   'Kale, Spinach & Rocket `Smoothie\n',
   'Hard-Boiled Free-Range Egg'
