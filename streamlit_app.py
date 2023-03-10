@@ -43,7 +43,7 @@ try:
 except URLError as e:
     st.error(back_from_function)
     
-st.stop()
+
 
 #Inport snoflake connection
 
