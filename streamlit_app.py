@@ -58,6 +58,7 @@ if st.button('Get Fruit  List'):
     my_data_rows=get_fruit_load_list()
     my_cnx.close()
     st.dataframe(my_data_rows)
+    st.stop()
 
 
 
