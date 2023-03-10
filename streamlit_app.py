@@ -47,7 +47,7 @@ except URLError as e:
 
 st.header("The fruit load list contains")
 #snowFlake-realated functions
-def get_fruit_load_lisst():
+def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
         my_cur.execute("SELECT * from fruit_load_list")
     return  my_cur.fetchall()
