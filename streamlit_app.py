@@ -41,7 +41,7 @@ try:
   else:
     back_from_function=get_fruityvice_data(fruit_choice)
 except URLError as e:
-    streamlit.error(back_from_function)
+    st.error(back_from_function)
     
 st.stop()
 
