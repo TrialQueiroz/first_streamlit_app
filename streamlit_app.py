@@ -56,6 +56,7 @@ def get_fruit_load_list():
 if st.button('Get fruit Load list'):
     my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
     my_data_rows=get_fruit_load_list()
+    my_cnx.close()
     st.dataframe(my_data_rows)
 
 
